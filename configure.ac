@@ -9,6 +9,7 @@ AC_CONFIG_FILES([
   Makefile
 ])
 AC_PROG_RANLIB
+AM_PROG_AR
 
 AC_MSG_CHECKING(whether compiler supports C++11 cstdatomic)
 OLD_CXXFLAGS="$CXXFLAGS"
